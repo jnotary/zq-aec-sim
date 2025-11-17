@@ -1,0 +1,6 @@
+psi_deg: 45.0
+sre_cap: 1.34
+c_shock_pct: 15.0
+multiplier: 1.5
+monotone_weight: 0.7
+hazard_k: 5
