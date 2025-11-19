@@ -1,3 +1,5 @@
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17654837.svg)](https://doi.org/10.5281/zenodo.17654837)
+
 # Z(Q) Adaptive Entropy Control Simulation
 
 **v1.0 — November 20, 2025**
