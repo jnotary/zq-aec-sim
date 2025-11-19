@@ -1,6 +1,29 @@
-psi_deg: 45.0
-sre_cap: 1.34
-c_shock_pct: 15.0
-multiplier: 1.5
-monotone_weight: 0.7
-hazard_k: 5
+simulation:
+  steps: 15000
+  seed: 42
+
+dynamics:
+  hazard_rate: 0.12          # lethal without coherence bleed
+  hazard_memory: 0.22
+  c_floor: 0.1
+  e_floor: 0.1
+  a_floor: 0.1
+
+gating:
+  psi_target_deg: 45.0
+  gamma: 0.021
+  damping: 0.016
+  z_wave: "cos2"
+
+z_params:
+  beta: 0.052
+
+c_shock:
+  enabled: true
+  probability: 0.16
+  shock_factor: 1.55
+  shock_bias: 0.21
+
+safety:
+  sre_cap: 1.34
+  clip_eps: 1e-6
